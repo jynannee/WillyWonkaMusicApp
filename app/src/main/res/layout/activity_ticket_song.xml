@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    style="@style/TicketStyle"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ticket_image"
+        style="@style/ticketImageStyle"
+        android:contentDescription="@string/charlie_bucket" />
+
+    <ImageView
+        style="@style/playbackImageStyle"
+        android:contentDescription="@string/playback" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/original_score_anthony_newley_and_leslie_bricusse"
+        style="@style/songTextStyle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/artists_peter_ostrum_jack_albertson"
+        style="@style/songTextStyle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/album_willy_wonka_the_chocolate_factory_original_soundtrack"
+        style="@style/songTextStyle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/released_1971"
+        style="@style/songTextStyle"/>
+
+</LinearLayout>

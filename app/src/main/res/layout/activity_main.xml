@@ -1,0 +1,52 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    style="@style/MainStyle"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/willy_wonka"
+        style="@style/wonkaStyle"
+        android:contentDescription="@string/willy_wonka_with_cast" />
+
+    <TextView
+        android:id="@+id/song_list"
+        style="@style/songStyle"
+        android:background="@color/song_list"
+        android:text="@string/album_song_list" />
+
+    <TextView
+        android:id="@+id/free"
+        style="@style/freeStyle"
+        android:text="@string/listen_for_free" />
+
+    <TextView
+        android:id="@+id/ticket"
+        style="@style/songStyle"
+        android:background="@color/song_ticket"
+        android:text="@string/i_ve_got_a_golden_ticket" />
+
+    <TextView
+        android:id="@+id/oompa"
+        style="@style/songStyle"
+        android:background="@color/song_oompa"
+        android:text="@string/oompa_loompa" />
+
+    <TextView
+        android:id="@+id/wonkatania"
+        style="@style/songStyle"
+        android:background="@color/song_wonkatania"
+        android:text="@string/the_wondrous_boat_ride" />
+
+    <TextView
+        android:id="@+id/now"
+        style="@style/songStyle"
+        android:background="@color/song_now"
+        android:text="@string/i_want_it_now" />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Main text -->
+    <string name="app_name">Willy Wonka Music App</string>
+    <string name="i_ve_got_a_golden_ticket">(I\'ve Got a) Golden Ticket</string>
+    <string name="oompa_loompa">Oompa Loompa</string>
+    <string name="the_wonkatania">The Wonkatania</string>
+    <string name="i_want_it_now">I Want It Now</string>
+    <string name="listen_for_free">Listen For Free:</string>
+    <string name="album_song_list">Album Song List</string>
+    <string name="original_score_anthony_newley_and_leslie_bricusse">Original score: Anthony Newley and Leslie Bricusse</string>
+    <string name="album_willy_wonka_the_chocolate_factory_original_soundtrack"><![CDATA[Album: Willy Wonka & The Chocolate Factory Original Soundtrack]]></string>
+    <string name="artists_peter_ostrum_jack_albertson">Artists: Peter Ostrum, Jack Albertson</string>
+    <string name="released_1971">Released: 1971</string>
+    <string name="artists_gene_wilder">Artists: Gene Wilder</string>
+    <string name="artists_julie_dawn_cole">Artists: Julie Dawn Cole</string>
+    <string name="artists_oompa_loompa_cast">Artists: Oompa Loompa Cast</string>
+    <string name="the_wondrous_boat_ride">The Wondrous Boat Ride</string>
+
+    <!-- Content descriptions. -->
+    <string name="charlie_bucket">Charlie Bucket holding Golden Ticket</string>
+    <string name="playback">Playback controls image placeholder</string>
+    <string name="veruca_salt">Veruca Salt singing image</string>
+    <string name="wonkatania_boat">Wonkatania boat</string>
+    <string name="oompa_loompa_wonka">Oompa Loompa\'s with Willy Wonka</string>
+    <string name="willy_wonka_with_cast">Willy Wonka with cast</string>
+
+</resources>

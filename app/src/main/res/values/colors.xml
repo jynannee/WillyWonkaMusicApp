@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#4A312A</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <!-- Text color for the Action Bars -->
+    <color name="actionbar_text">#ff9800</color>
+
+    <!-- Background color for the Album Song List button and song list -->
+    <color name="song_list">#ec407a</color>
+
+    <!-- Background color for the song "I’ve Got a Golden Ticket" button -->
+    <color name="song_ticket">#ff9100</color>
+
+    <!-- Background color for the song "Oompa Loompa" button -->
+    <color name="song_oompa">#9C27B0</color>
+
+    <!-- Background color for the song "The Wonkatania" button -->
+    <color name="song_wonkatania">#03a9f4</color>
+
+    <!-- Background color for the song "I Want It Now" button -->
+    <color name="song_now">#689f38</color>
+
+</resources>
