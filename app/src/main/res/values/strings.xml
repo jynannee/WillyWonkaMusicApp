@@ -24,5 +24,8 @@
     <string name="wonkatania_boat">Wonkatania boat</string>
     <string name="oompa_loompa_wonka">Oompa Loompa\'s with Willy Wonka</string>
     <string name="willy_wonka_with_cast">Willy Wonka with cast</string>
+    <string name="pause_button">Inactive pause button</string>
+    <string name="stop_button">Inactive stop button</string>
+    <string name="play_button">Inactive play button</string>
 
 </resources>

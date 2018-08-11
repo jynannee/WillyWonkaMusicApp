@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--- Layout for single list item -->
+<?xml version="1.0" encoding="utf-8"?><!--- Layout for single list item -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="16dp"
-    android:orientation="vertical"
+    android:background="@color/song_list"
     android:minHeight="@dimen/list_item_height"
-    android:background="@color/song_list">
+    android:orientation="vertical"
+    android:paddingLeft="16dp">
 
     <TextView
         android:id="@+id/song_title"
@@ -18,8 +17,7 @@
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@android:color/white"
         android:textStyle="bold"
-        tools:text="Main Title (Golden Ticket/Pure Imagination)"
-        />
+        tools:text="Main Title (Golden Ticket/Pure Imagination)" />
 
     <TextView
         android:id="@+id/artist"
@@ -30,8 +28,6 @@
         android:textAppearance="?android:textAppearanceSmall"
         android:textColor="@android:color/white"
         android:textStyle="bold"
-        tools:text="by Leslie Bricusse and Anthony Newley"
-        />
-
+        tools:text="by Leslie Bricusse and Anthony Newley" />
 
 </LinearLayout>

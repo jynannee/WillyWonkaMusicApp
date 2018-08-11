@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     style="@style/OompaStyle"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ImageView
@@ -10,32 +10,43 @@
         style="@style/oompaImageStyle"
         android:contentDescription="@string/oompa_loompa_wonka" />
 
-    <ImageView
-        style="@style/playbackImageStyle"
-        android:contentDescription="@string/playback" />
+    <LinearLayout style="@style/playbackStyle">
+
+        <ImageView
+            android:id="@+id/pause"
+            style="@style/pauseStyle"
+            android:contentDescription="@string/pause_button" />
+
+        <ImageView
+            android:id="@+id/stop"
+            style="@style/stopStyle"
+            android:contentDescription="@string/stop_button" />
+
+        <ImageView
+            android:id="@+id/play"
+            style="@style/playStyle"
+            android:contentDescription="@string/play_button" />
+
+    </LinearLayout>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:text="@string/original_score_anthony_newley_and_leslie_bricusse"
-        style="@style/songTextStyle"/>
+        android:id="@+id/oompa_score"
+        style="@style/songTextStyle"
+        android:text="@string/original_score_anthony_newley_and_leslie_bricusse" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:text="@string/artists_oompa_loompa_cast"
-        style="@style/songTextStyle"/>
+        android:id="@+id/oompa_artist"
+        style="@style/songTextStyle"
+        android:text="@string/artists_oompa_loompa_cast" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:text="@string/album_willy_wonka_the_chocolate_factory_original_soundtrack"
-        style="@style/songTextStyle"/>
+        android:id="@+id/oompa_album"
+        style="@style/songTextStyle"
+        android:text="@string/album_willy_wonka_the_chocolate_factory_original_soundtrack" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:text="@string/released_1971"
-        style="@style/songTextStyle"/>
+        android:id="@+id/oompa_date"
+        style="@style/songTextStyle"
+        android:text="@string/released_1971" />
 
 </LinearLayout>

@@ -6,81 +6,176 @@
         <item name="colorAccent">#212121</item>
     </style>
 
-    <!-- Style for text. -->
+    <!-- Style for text "Listen for Free". -->
     <style name="freeStyle">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:paddingLeft">16dp</item>
-        <item name="android:layout_marginTop">30dp</item>
-        <item name="android:layout_marginBottom">10dp</item>
-        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:layout_below">@+id/song_list</item>
     </style>
 
     <!-- Style for song description text. -->
     <style name="songTextStyle">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">#212121</item>
         <item name="android:paddingLeft">16dp</item>
-        <item name="android:layout_marginBottom">5dp</item>
-        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for playback controls. -->
+    <style name="playbackStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Style for pause control. -->
+    <style name="pauseStyle">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:src">@drawable/pause</item>
+    </style>
+
+    <!-- Style for stop control. -->
+    <style name="stopStyle">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginLeft">60dp</item>
+        <item name="android:layout_marginRight">60dp</item>
+        <item name="android:src">@drawable/stop</item>
+    </style>
+
+    <!-- Style for play control. -->
+    <style name="playStyle">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:src">@drawable/play</item>
     </style>
 
     <!-- Style for main image. -->
     <style name="wonkaStyle">
         <item name="android:src">@drawable/main</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:layout_marginTop">15dp</item>
-        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
         <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <!-- Style for Song List button. -->
+    <style name="songListStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:layout_below">@+id/willy_wonka</item>
+        <item name="android:background">@color/song_list</item>
+    </style>
+
+    <!-- Style for I've Got a Golden Ticket button. -->
+    <style name="ticketButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:layout_below">@+id/free</item>
+        <item name="android:background">@color/song_ticket</item>
+    </style>
+
+    <!-- Style for Oompa Loompa button. -->
+    <style name="oompaButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:layout_below">@+id/ticket</item>
+        <item name="android:background">@color/song_oompa</item>
+    </style>
+
+    <!-- Style for The Wonderous Boat Ride button. -->
+    <style name="wonkataniaButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:layout_below">@+id/oompa</item>
+        <item name="android:background">@color/song_wonkatania</item>
+    </style>
+
+    <!-- Style for I Want It Now button. -->
+    <style name="nowButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:layout_below">@+id/wonkatania</item>
+        <item name="android:background">@color/song_now</item>
     </style>
 
     <!-- Style for (I’ve Got a) Golden Ticket image. -->
     <style name="ticketImageStyle">
         <item name="android:src">@drawable/ticket</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:layout_marginTop">15dp</item>
-        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
         <item name="android:adjustViewBounds">true</item>
     </style>
 
     <!-- Style for Oompa Loompa image. -->
     <style name="oompaImageStyle">
         <item name="android:src">@drawable/oompa</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:layout_marginTop">15dp</item>
-        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
         <item name="android:adjustViewBounds">true</item>
     </style>
 
     <!-- Style for The Wonkatania image. -->
     <style name="wonkataniaImageStyle">
         <item name="android:src">@drawable/wonkatania</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:layout_marginTop">15dp</item>
-        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
         <item name="android:adjustViewBounds">true</item>
     </style>
 
     <!-- Style for I Want It Now image. -->
     <style name="nowImageStyle">
         <item name="android:src">@drawable/now</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:layout_marginTop">15dp</item>
-        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
         <item name="android:adjustViewBounds">true</item>
     </style>
 
@@ -95,48 +190,38 @@
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 
-    <!-- Style for playback buttons image. -->
-    <style name="playbackImageStyle">
-        <item name="android:src">@drawable/playback</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">match_parent</item>
-        <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:layout_marginBottom">15dp</item>
-        <item name="android:adjustViewBounds">true</item>
-    </style>
-
     <!-- Style for Main Screen background -->
     <style name="MainStyle">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
         <item name="android:background">@drawable/main_background</item>
     </style>
 
     <!-- Style for "(I've Got a) Golden Ticket" background -->
     <style name="TicketStyle">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
         <item name="android:background">@drawable/page1</item>
     </style>
 
     <!-- Style for "Oompa Loompa" background -->
     <style name="OompaStyle">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
         <item name="android:background">@drawable/page2</item>
     </style>
 
     <!-- Style for "The Wonkatania" background -->
     <style name="WonkataniaStyle">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
         <item name="android:background">@drawable/page3</item>
     </style>
 
     <!-- Style for "I Want It Now" background -->
     <style name="NowStyle">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
         <item name="android:background">@drawable/page4</item>
     </style>
 
